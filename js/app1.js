@@ -39,7 +39,7 @@ function buildTable(data) {
     // just be the original tableData.
     buildTable(filteredData);
   }
-  
+  document.getElementByType("")
   // Attach an event to listen for the form button
   d3.selectAll("#filter-btn").on("click", handleClick);
   
